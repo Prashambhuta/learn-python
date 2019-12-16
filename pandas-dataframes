@@ -12,3 +12,16 @@ print(brics)
 brics.index = ["BR", "RS", "IN", "CN", "SA"]
 
 print(brics)
+
+
+# Importing .csv
+
+dic = pd.read_csv('/filepath/filename.csv', index_col = 0) #index_col determines which column acts as index.
+
+# Use of .loc & .iloc filtering
+# .loc is label based 
+# .iloc is integer based
+
+print(brics.iloc[3])            # Prints entry China with all the informat
+print(brics.loc["BR"])          # Prints entry with index "BR" i.e Brazil
+
