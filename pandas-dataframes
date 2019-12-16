@@ -6,3 +6,9 @@ dict = {"country": ["Brazil", "Russia", "India","China","South Africa"],
 import pandas as pd
 brics = pd.DataFrame(dict)
 print(brics)
+
+# Changing index from 0,1,2 .. to something else.
+
+brics.index = ["BR", "RS", "IN", "CN", "SA"]
+
+print(brics)
