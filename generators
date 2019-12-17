@@ -1,0 +1,14 @@
+# To return 7 random numbers
+import  random
+
+def lottery():
+
+    # return 6 number between 1 and 40
+    for i in range(6):
+        yield random.randint(1,40)      # generator will iterate the for loop 6 times
+
+    #return a 7th number between 1 and 15
+    yield random.randint(1,15)
+
+for random_number in lottery():
+    print("And the next number is ... %d!" % (random_number))
