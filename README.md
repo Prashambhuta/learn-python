@@ -1,6 +1,6 @@
 # learn-python
 All examples, syntax, exercises of my journey towards mastering python.
 
-Sources
+### Sources
 
-#1 Learn Python (learnpython.org)
+* [Learn Python](learnpython.org)
