@@ -1,0 +1,34 @@
+def bar(first, second, third, **options): #function with 3 arguments and multiple optional argument
+    print("This is first number: %d" % first)
+    print("This is second number: %d" % second)
+    if options.get("action") == "sum": # if optional argument "action" is given use sum or subtract as per the argument
+        print("The sum is %d" % (first + second + third))
+    if options.get("action") == "subtract":
+        print("the substration is %d" % ((third-second) - first))
+    if options.get("number") == "first": #if optional argument "number" use this loop.
+        return "third" #if "number" ="first" return "third"
+    else: # else return first
+        return second
+
+result = bar(1,2,3,action = "subtract", number="first")
+print("Result: %s" % (result)) #value of result is whatever value is generated/returned from the function bar ex. "third"
+
+#Exercise : Fill in the foo and bar functions so they can receive a variable amount of arguments (3 or more)
+# The foo function must return the amount of extra arguments received.
+# The bar must return True if the argument with the keyword magicnumber is worth 7,
+# and False otherwise.
+def foo(a, b, c, **d):
+    print("The number of extra arguments is %d" % len(d))
+    pass
+
+
+def bar(a, b, c, **e):
+    if e.get("magicnumber") == 7:
+        print(True)
+    else:
+        print(False)
+    pass
+
+# Test the code
+foo(1, 2, 3, en="p", has="q", sds="s")
+bar(1, 2, 3, magicnumber=7, magss=5)
