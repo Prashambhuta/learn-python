@@ -1,0 +1,34 @@
+a = set(["Jake", "John", "Eric"])
+b = set(["John", "Jill", "Jack"])
+
+# To convert list into sets use a = set() function
+
+# intersection between sets
+print("The intersection between a & b is %s" %a.intersection(b))
+print("The intersection between a & b is %s" %b.intersection(a))
+print("")
+
+# symmetric difference
+# symmetric difference will find out the non-intersecting values from
+# both the sets and merge them
+
+print("The merged non-intersecting elements are %s" % a.symmetric_difference(b))
+print("The merged non-intersecting elements are %s" % b.symmetric_difference(a))
+print("")
+
+# difference (remainder or leftover)
+
+print("The difference from a to b are %s" % a.difference(b) )
+print("The difference from b to a are %s" % b.difference(a))
+print("")
+
+# Union
+
+print("The union of a & b is %s" % a.union(b))
+print("The union of b & a is %s" % b.union(a))
+print("")
+
+# Exercise
+# Find out all who attended event a but not event b
+
+print(a.difference(b))
