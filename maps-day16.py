@@ -28,3 +28,15 @@ print(new_areas)
 # it gets everything
 # When using range that is less than the no of items, the round function will stop after the given no of arguments.
 # Check example above where range(1,4) stops after 3rd item.
+
+# Zip
+# zip() function takes a number of iterables
+# and creates a tuple(data structure) each of the elements in iterables
+# Example
+my_strings = ['a', 'b','c', 'd', 'e']
+my_numbers = [1,2,3,4,5]
+
+results = list(zip(my_strings,my_numbers))
+
+print(results)
+
