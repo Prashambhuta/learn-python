@@ -40,3 +40,8 @@ results = list(zip(my_strings,my_numbers))
 
 print(results)
 
+# Using map() to get the same result as zip() but using 'lambda'.
+# 'lambda' uses the same dynamics as def fun()
+# for below lambda means for x,y create tuple (x,y) with my_strings, my_numbers
+a_results = list(map(lambda x,y: (x,y), my_strings, my_numbers))
+print(a_results)
