@@ -21,7 +21,7 @@ print(upper_using_maps)
 
 circle_areas = [3.56773, 5.57668, 4.00914, 56.24241, 9.01344, 32.00013]
 
-new_areas = list(map(round, circle_areas, range(1,4)))
+new_areas = list(map(round, circle_areas, range(1,7)))
 print(new_areas)
 
 # round function requires two arguments, first, is item to round and second is decimal places to round, and with range (1,4)
@@ -45,3 +45,5 @@ print(results)
 # for below lambda means for x,y create tuple (x,y) with my_strings, my_numbers
 a_results = list(map(lambda x,y: (x,y), my_strings, my_numbers))
 print(a_results)
+
+
