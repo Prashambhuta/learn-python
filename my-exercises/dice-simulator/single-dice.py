@@ -17,5 +17,3 @@ while Enter == "":
     Enter = input()
 else:
     print("You did not press Enter")
-
-
