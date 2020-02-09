@@ -163,20 +163,3 @@ except ValueError:
     print("Not an integer. Exiting")
 
 print("The correct answer was %d" % x)
-
-
-
-# y = int(input())
-# for y in (1,10):
-#     try:
-#         if y == x:
-#             print("Guessed Correctly!")
-#         else:
-#             print("Incorrect Guess")
-#
-#     except ValueError:
-#         print("Incorrect Input")
-
-
-
-
