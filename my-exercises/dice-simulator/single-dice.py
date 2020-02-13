@@ -1,3 +1,4 @@
+#! /usr/bin/python
 # Single 6 faced dice
 import random
 print("Welcome to Dice Simulator. Press 'Enter' to start.")
