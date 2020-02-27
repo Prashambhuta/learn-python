@@ -1,0 +1,10 @@
+
+Traceback (most recent call last):
+  File "/home/prasham/learn-python/udemy-atbs/35_a_raising_exception.py", line 29, in <module>
+    raise Exception("This is an error message")
+Exception: This is an error message
+
+Traceback (most recent call last):
+  File "/home/prasham/learn-python/udemy-atbs/35_a_raising_exception.py", line 29, in <module>
+    raise Exception("This is an error message")
+Exception: This is an error message
