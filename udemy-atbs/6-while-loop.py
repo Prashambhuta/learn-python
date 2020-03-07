@@ -13,12 +13,12 @@ while name != 'Prasham':
     # name = input()
     break
 
-print("THanks")
+print("Thanks")
 
 # Use of continue
 n = 0
 while n <5:
     n = n + 1
-    if n  == 3:
+    if n == 3:
         continue
     print(n)

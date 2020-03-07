@@ -6,8 +6,8 @@ import logging
 """
 There are 5 levels of logging. In order of highest first.
 1. CRITICAL - highest, # crash-worthy
-2. ERROR    
-3. WARNING
+2. ERROR    -
+3. WARNING  -
 4. INFO     - to pass parameters/info at certain junctures.
 5. DEBUG    - suitable for development environment.
 """
