@@ -6,9 +6,10 @@ Each item consists of 2 elements, data & reference.
 Reference- Each node refers to location of next node.
 """
 
-# TODO: insert link to tutorial source.
+# insert link to tutorial source.
 """
 Learning source - 
+https://stackabuse.com/linked-lists-in-detail-with-python-examples-single-linked-lists/
 """
 
 
@@ -51,6 +52,7 @@ class linked_list:
         while n.ref is not None:
             n = n.ref
         n.ref = new_node
+
 
 """
 Testing the insertion functions.
