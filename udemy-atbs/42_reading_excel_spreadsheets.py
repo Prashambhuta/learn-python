@@ -1,7 +1,7 @@
 #! usr/bin/env/python3
 """
 Reading data from excel spreadsheets.
-Openoffice & Libreoffice will also work.
+Openoffice & Libreoffice will also work but not .ods format.
 """
 
 """
@@ -32,7 +32,7 @@ sheet = workbook.get_sheet_by_name('Sheet1')
 print(sheet['A1'].value)    # returns the value of A1 cell
 
 # get cell id using method(.cell)
-print(sheet.cell(1, 1))
+print(sheet.cell(1, 1))     # returns cell ID
 print(sheet.cell(row=1, column=1).value)   # returns the value of the cell id
 
 # get range of values
