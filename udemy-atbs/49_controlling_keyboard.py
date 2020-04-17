@@ -6,7 +6,7 @@ Controlling the keyboard using pyautogui
 import pyautogui
 
 # to type text use `typewrite()` method
-pyautogui.typewrite("Hello world!", interval=0.01)
+pyautogui.typewrite("Hello world!", interval=1)
 
 # to press special keys
 pyautogui.typewrite(['d', 'backspace', 'p'], interval=0.1)
@@ -18,4 +18,5 @@ pyautogui.typewrite(['d', 'backspace', 'p'], interval=0.1)
 # pyautogui.press('f1')
 
 # to press shortcuts or multiple key together
-pyautogui.hotkey('shift', 'f10')
+# pyautogui.hotkey('shift', 'f10')
+pyautogui.hotkey('ctrl', 'n')
