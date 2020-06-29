@@ -1,6 +1,6 @@
 #! usr/bin/env python3
 
-num = -3923
+num = 20
 if num < 0:
     num_neg = True
     num = abs(num)
