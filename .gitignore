@@ -1,2 +1,4 @@
 /udemy-atbs/geckodriver.log
 *.env
+__pycache__/
+*/*__pycache__
