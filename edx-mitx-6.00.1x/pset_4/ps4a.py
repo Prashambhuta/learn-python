@@ -234,7 +234,7 @@ def playHand(hand, wordList, n):
     while sum(hand.values()) > 0:
 
     # Display the hand
-        print('Current hand:', list(hand.keys()))
+        print('Current hand:', displayHand(hand))
     # Ask user for input
         user_word = input('Enter word, or a "." to indicate that you are finished:')
 
