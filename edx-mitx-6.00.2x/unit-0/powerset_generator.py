@@ -14,7 +14,7 @@ def powerSet(items):
 
 
 combo1 = powerSet(['a', 'b', 'c', 'e', 'f', 'g'])
-
+print(list(combo1))
 
 def to_trinary(num):
     ans = ''
